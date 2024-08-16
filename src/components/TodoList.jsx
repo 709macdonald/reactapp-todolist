@@ -8,9 +8,9 @@ export default function TodoList() {
   ];
 
   return (
-    <ul>
+    <ul className="main">
       {todos.map((todo, todoIndex) => {
-        return <li>{todo}</li>;
+        return <li className="todoItem">{todo}</li>;
       })}
     </ul>
   );
